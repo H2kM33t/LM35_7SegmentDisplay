@@ -66,6 +66,7 @@ void loop()
     Serial.println(ones_digit);
 
     // 7 Segment Display for the Tens Digit
+    // These are Active Low i.e due to Common Anode
     if (tens_digit == 0)
     {
         digitalWrite(A_1, LOW);
