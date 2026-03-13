@@ -52,7 +52,7 @@ void loop()
 
     // Convert the Analog Reading (which goes from 0 - 1023) to a voltage (0 - 5V):
     float voltage = sensorValue * (5.0 / 1023.0);
-    // float voltage = sensorValue * ( 3.3/ 4096 );
+    // float voltage = sensorValue * ( 3.3 / 4096 );
     float temperature = voltage * 100;
 
     // Print out the Value you read:
